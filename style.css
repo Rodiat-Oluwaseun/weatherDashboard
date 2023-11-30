@@ -1,0 +1,16 @@
+/* .weather-header{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+} */
+#search-button{
+    background-color: rgb(109, 109, 236);
+    width: 176px;
+}
+#history{
+    background-color: grey;
+    list-style: none;
+    align-items: center;
+    margin-top: 5px 0;
+    color: white;
+}
