@@ -19,7 +19,7 @@ $("#search-button").on("click", function(event) {
   }).then(function (data) {
       console.log(data);
       var cities = [];
-      // listGroupEl.prepend("<button>" + city + "</div>"); 
+      
       listGroupEl.prepend('<button type="button" class="btn btn-secondary">' + city + '</button>');
       $(searchInputEl).val("");
      // Day 1 information
