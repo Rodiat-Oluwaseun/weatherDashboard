@@ -1,16 +1,17 @@
-/* .weather-header{
-    background-color: brown;
+.weather-header{
+    background-color:#2D4596;
     display: flex;
     justify-content: center;
-} */
+}
 #search-button{
     background-color: rgb(109, 109, 236);
     width: 176px;
 }
 #history{
-    background-color: grey;
     list-style: none;
-    align-items: center;
-    margin-top: 5px 0;
+    margin: 5px 0;
     color: white;
+}
+.btn.btn-secondary{
+margin: 10px;
 }
