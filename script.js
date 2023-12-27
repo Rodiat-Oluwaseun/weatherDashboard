@@ -20,6 +20,13 @@ $("#search-button").on("click", function(event) {
       console.log(data);
       var cities = [];
       
+      if (localStorage.getItem("cities")) {
+        // cities = JSON.parse(localStorage.getItem("cities"));
+      }
+      cities.push(city)
+      localStorage.setItem("cities", JSON.stringify(cities));
+
+
       listGroupEl.prepend('<button type="button" class="btn btn-secondary">' + city + '</button>');
       $(searchInputEl).val("");
      // Day 1 information
@@ -97,9 +104,9 @@ $("#search-button").on("click", function(event) {
             }
       })
   });
-    function addTask(text){
-      // console.log(listgroupEl);
-      listgroupEl.append("<div>");
+    // function addTask(text){
+    //   // console.log(listgroupEl);
+    //   listgroupEl.append("<div>");
 
-    }
+    // }
     
