@@ -25,7 +25,7 @@ A weather App dashboard for traveler to see the weather outlook for multiple cit
 ```
 ## Deployment:
 ```
- git clone git@github.com:Rodiat-Oluwaseun/weatherDashboard.git
+  https://rodiat-oluwaseun.github.io/weatherDashboard/
 ```
 
 ## Challenges faced
